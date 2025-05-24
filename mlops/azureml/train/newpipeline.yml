@@ -7,7 +7,7 @@ description: Training Pipeline to predict used cars pricing using Decision Tree 
 inputs:
   raw_data:
     type: uri_file
-    path: azureml:use-car-data@latest
+    path: azureml:use-cars-data@latest
 
 outputs:
   train_data:
