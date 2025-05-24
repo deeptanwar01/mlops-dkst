@@ -7,7 +7,7 @@ description: Training Pipeline to predict used cars pricing using Decision Tree 
 inputs:
   raw_data:
     type: uri_file
-    path: azureml:machine-falure-data@latest
+    path: azureml:use-car-data@latest
 
 outputs:
   train_data:
@@ -18,7 +18,7 @@ outputs:
     type: uri_file  # Specify the type for model_info_output_path output
 
 settings:
-  default_datastore: azureml:workspaceblobstore
+  default_datastore: azureml:workspaceblobnew
   default_compute: azureml:cpu-cluster
   continue_on_step_failure: false
 
